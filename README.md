@@ -50,3 +50,41 @@ int main() {
     cout<<sum;
     
 }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //wap to print the reverse of a number..
+
+//steps =
+//1.rev=0*10
+// lastdigit
+//rev+=lastdigit
+//n=n/10
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    int last=0;
+      int rev=0;
+   while(n>0)
+   {
+       rev*=10;
+       last=n%10;
+       rev+=last;
+       n=n/10;
+   
+   }
+   cout<<rev;
+}
